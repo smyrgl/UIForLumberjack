@@ -21,5 +21,5 @@ Pod::Spec.new do |s|
   s.exclude_files = 'UIForLumberjackExample'
   s.frameworks = 'UIKit', 'Foundation'
   s.requires_arc = true
-  s.dependency 'CocoaLumberjack', '~> 2.0'
+  s.dependency 'CocoaLumberjack'
 end
